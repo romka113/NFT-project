@@ -96,3 +96,10 @@ body {
     }
   }
 }
+
+@media screen and (min-width: 900px) {
+  .card__body {
+    box-shadow: 0px 3px 0px 33px hsl(215, 32%, 27%),
+      1px 3px 0px 64px hsl(216, 50%, 16%);
+  }
+}
